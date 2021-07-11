@@ -1,8 +1,50 @@
 .wrapper {
-    background: gray;
-    padding: 127px 38px;
+  background: gray;
+  height: 800px;
+  padding: 24px;
 }
 
-.wrapper_svejedno {
-    
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+.navigation_items {
+  a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.title {
+  font-size: 28px;
+  color: red;
+  margin-top:144px;
+  @media only screen and (min-width: 1024px) {
+    font-size: 72px;
+  }
+}
+
+.ball {
+    margin-right: 40px;
+}
+
+.newsletter_button {
+    max-width: 103px;
+    width: 100%;
+    height: 10px;
+    padding: 22px 39px;
+    background: black;
+}
+
+.icons {
+justify-content: space-between;
+
 }
